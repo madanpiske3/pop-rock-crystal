@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../styles/SimpleClipWise.css';
-// import Nav from '../Header/Nav';
 import Logo1 from '../temp/Logo1';
 import { Basket } from '../temp/Basket';
 
@@ -11,18 +10,18 @@ const SimpleClipWise = () => {
                 
                 <a href="" class="logo"><Logo1 />Pop Rock Crystal</a>
                     <div class="nav-items">
-                        <a href="">Home</a>
-                        <a href="">Shop</a>
-                        <a href="">About Us</a>
-                        <a href="">Help</a>
+                        <a href="/">Home</a>
+                        <a href="/">Shop</a>
+                        <a href="/">About Us</a>
+                        <a href="/">Help</a>
                     </div>
                 <div class="flexRow">
                     <div class="icon">00</div>
-                    {/* <i class="fas fa-shopping-basket basketStyle"></i> */}
+                    
                     <Basket />
                 </div>
             </nav>
-            {/* <Nav /> */}
+
             <div class="inner-container">
             <div class="content-container">
                 <h1>Welcome to<br/><span>Pop Rock Crystal Shop!</span></h1>
