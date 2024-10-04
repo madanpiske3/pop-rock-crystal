@@ -1,24 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+// import LastPage from './components/Footer/LastPage';
+// import MainWelcom from './components/Header/MainWelcom';
+import Nav from './components/Header/Nav';
+// import Scroll from './components/Header/Scroll';
+// import Pro from './components/Products2/Pro';
+// import Products from './components/Products/Products';
+import Application from "./components/temp/Application";
+// import NewMain from "./components/Header/NewMain";
+
+import SimpleClipWise from "./components/Header/SimpleClipWise";
+
+// eslint-disable-next-lin
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Nav /> */}
+      <SimpleClipWise />
+      <Application />
+    </>
+    // <NewMain />
+
+    // <Application />
+    
+  // <div>
+
+  //   {/* <Nav /> */}
+  //   {/* <MainWelcom /> */}
+  //   {/* <Scroll /> */}
+
+  //   {/* <Poducts /> */}
+
+  //   <Pro /> {/* pro is final mid  */}
+
+  //   {/* <LastPage /> */}
+
+
+
+  // </div>
+    
+
+
   );
 }
 
