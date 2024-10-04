@@ -21,7 +21,7 @@ const LastPage = () => {
       </div>
       <div className="best-price-image">
         <div className="image-one">
-          <img src={product_png} alt="" />
+          <img src={product_png} alt="propage" />
         </div>
         
       </div>
